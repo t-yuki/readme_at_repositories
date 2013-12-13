@@ -9,6 +9,8 @@
 
 <script type="text/javascript">
 $().ready(function(){
+  $("#toggle_readme_block").insertBefore(".other-formats:first")
+  $("#readme_at_repo_dir").insertBefore(".other-formats:first")
   $("#toggle_readme_block").click(function(){
     $("#readme_at_repo_dir").toggle(500);
   });
